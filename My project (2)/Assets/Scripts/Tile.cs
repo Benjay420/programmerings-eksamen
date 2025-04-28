@@ -13,9 +13,9 @@ public class Tile : MonoBehaviour
 
     void OnMouseDown()
     {
-        // Called when user clicks/taps the tile
-        GameManager.Instance.AddPoint();
-        Destroy(gameObject);
+       //Called when user clicks/taps the tile
+       GameManager.Instance.AddPoint();
+       Destroy(gameObject);
     }
 
     void OnBecameInvisible()
@@ -24,3 +24,4 @@ public class Tile : MonoBehaviour
         Destroy(gameObject);
     }
 }
+ 
