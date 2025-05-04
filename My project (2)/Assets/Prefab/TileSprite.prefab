@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7072464555594784158}
   m_Layer: 0
   m_Name: TileSprite
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,3 +212,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilePrefab: {fileID: 0}
   spawnInterval: 1
+  spawnRangeX: 2.5
