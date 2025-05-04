@@ -196,6 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  tapSound: {fileID: 8300000, guid: 8297995425d9fa64cb85da5b51d35153, type: 3}
+  tapVolume: 1
 --- !u!114 &-7072464555594784158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,7 +205,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5362569364260563525}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6deaa9ac6fb9c93409138d6da3a23698, type: 3}
   m_Name: 
